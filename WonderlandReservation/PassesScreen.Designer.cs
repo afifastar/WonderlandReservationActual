@@ -48,6 +48,7 @@
             this.descriptionLabel1 = new System.Windows.Forms.Label();
             this.descriptionLabel2 = new System.Windows.Forms.Label();
             this.descriptionLabel3 = new System.Windows.Forms.Label();
+            this.enterButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,7 +56,7 @@
             // 
             // passesButton
             // 
-            this.passesButton.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passesButton.Location = new System.Drawing.Point(170, 20);
             this.passesButton.Name = "passesButton";
             this.passesButton.Size = new System.Drawing.Size(145, 36);
@@ -66,7 +67,7 @@
             // 
             // diningButton
             // 
-            this.diningButton.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diningButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diningButton.Location = new System.Drawing.Point(321, 20);
             this.diningButton.Name = "diningButton";
             this.diningButton.Size = new System.Drawing.Size(145, 36);
@@ -77,7 +78,7 @@
             // 
             // parkingButton
             // 
-            this.parkingButton.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parkingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parkingButton.Location = new System.Drawing.Point(472, 20);
             this.parkingButton.Name = "parkingButton";
             this.parkingButton.Size = new System.Drawing.Size(145, 36);
@@ -88,7 +89,7 @@
             // 
             // paymentButton
             // 
-            this.paymentButton.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paymentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paymentButton.Location = new System.Drawing.Point(623, 20);
             this.paymentButton.Name = "paymentButton";
             this.paymentButton.Size = new System.Drawing.Size(145, 36);
@@ -99,7 +100,7 @@
             // 
             // ticketButton
             // 
-            this.ticketButton.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ticketButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ticketButton.Location = new System.Drawing.Point(19, 20);
             this.ticketButton.Name = "ticketButton";
             this.ticketButton.Size = new System.Drawing.Size(145, 36);
@@ -141,97 +142,97 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(252, 128);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 24);
+            this.label1.Size = new System.Drawing.Size(168, 25);
             this.label1.TabIndex = 19;
             this.label1.Text = "SEASON PASS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(252, 288);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 24);
+            this.label2.Size = new System.Drawing.Size(166, 25);
             this.label2.TabIndex = 20;
             this.label2.Text = "GOLDEN PASS";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Monospac821 BT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(252, 448);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 24);
+            this.label3.Size = new System.Drawing.Size(186, 25);
             this.label3.TabIndex = 21;
             this.label3.Text = "PLATINUM PASS";
             // 
             // priceLabel1
             // 
             this.priceLabel1.AutoSize = true;
-            this.priceLabel1.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel1.ForeColor = System.Drawing.Color.OliveDrab;
             this.priceLabel1.Location = new System.Drawing.Point(252, 152);
             this.priceLabel1.Name = "priceLabel1";
-            this.priceLabel1.Size = new System.Drawing.Size(309, 20);
+            this.priceLabel1.Size = new System.Drawing.Size(274, 20);
             this.priceLabel1.TabIndex = 22;
             this.priceLabel1.Text = "$99.00 or 5 Payments of $19.80";
             // 
             // priceLabel2
             // 
             this.priceLabel2.AutoSize = true;
-            this.priceLabel2.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel2.ForeColor = System.Drawing.Color.OliveDrab;
             this.priceLabel2.Location = new System.Drawing.Point(252, 312);
             this.priceLabel2.Name = "priceLabel2";
-            this.priceLabel2.Size = new System.Drawing.Size(319, 20);
+            this.priceLabel2.Size = new System.Drawing.Size(284, 20);
             this.priceLabel2.TabIndex = 23;
             this.priceLabel2.Text = "$130.00 or 5 Payments of $26.00";
             // 
             // priceLabel3
             // 
             this.priceLabel3.AutoSize = true;
-            this.priceLabel3.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel3.ForeColor = System.Drawing.Color.OliveDrab;
             this.priceLabel3.Location = new System.Drawing.Point(252, 472);
             this.priceLabel3.Name = "priceLabel3";
-            this.priceLabel3.Size = new System.Drawing.Size(319, 20);
+            this.priceLabel3.Size = new System.Drawing.Size(284, 20);
             this.priceLabel3.TabIndex = 24;
             this.priceLabel3.Text = "$280.00 or 5 Payments of $56.00";
             // 
             // amountInput1
             // 
-            this.amountInput1.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amountInput1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.amountInput1.Location = new System.Drawing.Point(256, 244);
             this.amountInput1.Name = "amountInput1";
-            this.amountInput1.Size = new System.Drawing.Size(100, 28);
+            this.amountInput1.Size = new System.Drawing.Size(100, 27);
             this.amountInput1.TabIndex = 25;
             // 
             // amountInput3
             // 
-            this.amountInput3.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amountInput3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.amountInput3.Location = new System.Drawing.Point(256, 564);
             this.amountInput3.Name = "amountInput3";
-            this.amountInput3.Size = new System.Drawing.Size(100, 28);
+            this.amountInput3.Size = new System.Drawing.Size(100, 27);
             this.amountInput3.TabIndex = 26;
             // 
             // amountInput2
             // 
-            this.amountInput2.Font = new System.Drawing.Font("Monospac821 BT", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amountInput2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.amountInput2.Location = new System.Drawing.Point(256, 404);
             this.amountInput2.Name = "amountInput2";
-            this.amountInput2.Size = new System.Drawing.Size(100, 28);
+            this.amountInput2.Size = new System.Drawing.Size(100, 27);
             this.amountInput2.TabIndex = 27;
             // 
             // descriptionLabel1
             // 
             this.descriptionLabel1.AutoSize = true;
-            this.descriptionLabel1.Font = new System.Drawing.Font("Monospac821 BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descriptionLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descriptionLabel1.Location = new System.Drawing.Point(252, 174);
             this.descriptionLabel1.Name = "descriptionLabel1";
-            this.descriptionLabel1.Size = new System.Drawing.Size(431, 54);
+            this.descriptionLabel1.Size = new System.Drawing.Size(336, 54);
             this.descriptionLabel1.TabIndex = 28;
             this.descriptionLabel1.Text = "Unlimited Summer and Fall Daytime Visits, 10% \r\nFood and Merchandise Discounts, B" +
     "ring-a-Friend \r\nDiscount Tickets, Pass Perks Rewards";
@@ -239,29 +240,41 @@
             // descriptionLabel2
             // 
             this.descriptionLabel2.AutoSize = true;
-            this.descriptionLabel2.Font = new System.Drawing.Font("Monospac821 BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descriptionLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descriptionLabel2.Location = new System.Drawing.Point(252, 337);
             this.descriptionLabel2.Name = "descriptionLabel2";
-            this.descriptionLabel2.Size = new System.Drawing.Size(386, 36);
+            this.descriptionLabel2.Size = new System.Drawing.Size(309, 36);
             this.descriptionLabel2.TabIndex = 29;
             this.descriptionLabel2.Text = "Same Perks as the Season Pass + Unlimited \r\nHaunt and Winterfest Visits";
             // 
             // descriptionLabel3
             // 
             this.descriptionLabel3.AutoSize = true;
-            this.descriptionLabel3.Font = new System.Drawing.Font("Monospac821 BT", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descriptionLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.descriptionLabel3.Location = new System.Drawing.Point(252, 497);
             this.descriptionLabel3.Name = "descriptionLabel3";
-            this.descriptionLabel3.Size = new System.Drawing.Size(404, 54);
+            this.descriptionLabel3.Size = new System.Drawing.Size(338, 54);
             this.descriptionLabel3.TabIndex = 30;
             this.descriptionLabel3.Text = "Same Perks as Season Pass and Golden Pass + \r\nUnlimited Visits To All Cedar Fair " +
     "Parks, \r\nFree General Parking";
+            // 
+            // enterButton
+            // 
+            this.enterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterButton.Location = new System.Drawing.Point(531, 620);
+            this.enterButton.Name = "enterButton";
+            this.enterButton.Size = new System.Drawing.Size(117, 48);
+            this.enterButton.TabIndex = 31;
+            this.enterButton.Text = "ENTER";
+            this.enterButton.UseVisualStyleBackColor = true;
+            this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
             // 
             // PassesScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Controls.Add(this.enterButton);
             this.Controls.Add(this.descriptionLabel3);
             this.Controls.Add(this.descriptionLabel2);
             this.Controls.Add(this.descriptionLabel1);
@@ -314,5 +327,6 @@
         private System.Windows.Forms.Label descriptionLabel1;
         private System.Windows.Forms.Label descriptionLabel2;
         private System.Windows.Forms.Label descriptionLabel3;
+        private System.Windows.Forms.Button enterButton;
     }
 }

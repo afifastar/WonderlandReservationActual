@@ -73,7 +73,21 @@ namespace WonderlandReservation
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
+            amountInput1.Clear();
+            amountInput2.Clear();
+            amountInput3.Clear();
+        }
 
+        private void enterButton_Click(object sender, EventArgs e)
+        {
+            string oneDayTicket, twoDayTicket, friendTicket;
+
+            oneDayTicket = amountInput1.Text;
+            twoDayTicket = amountInput2.Text;
+            friendTicket = amountInput3.Text;
+
+            Order o = new Order(oneDayTicket, twoDayTicket, friendTicket);
+            orders.Add(o);
         }
     }
 }

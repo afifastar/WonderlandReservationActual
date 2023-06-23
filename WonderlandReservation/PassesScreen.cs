@@ -12,6 +12,8 @@ namespace WonderlandReservation
 {
     public partial class PassesScreen : UserControl
     {
+        List<Order> orders = new List<Order>();
+
         public PassesScreen()
         {
             InitializeComponent();
@@ -67,6 +69,18 @@ namespace WonderlandReservation
             PaymentScreen cs = new PaymentScreen();
             f.Controls.Add(cs);
             cs.Focus();
+        }
+
+        private void enterButton_Click(object sender, EventArgs e)
+        {
+            string seasonPass, goldPass, platinumPass;
+
+            seasonPass = amountInput1.Text;
+            goldPass = amountInput2.Text;
+            platinumPass = amountInput3.Text;
+
+            Order o = new Order(seasonPass, goldPass, platinumPass);
+            orders.Add(o);
         }
     }
 }
